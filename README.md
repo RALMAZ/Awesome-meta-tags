@@ -295,6 +295,12 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 ```html
 <link href="/manifest.json" rel="manifest">
 ```
+#### HTML5 Shim  
+```html
+<!--[if lt IE 9]> 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> 
+<![endif]-->
+```
 #### CSRF  
 ```html
 <meta name="csrf-param" content="authenticity_token"/>
