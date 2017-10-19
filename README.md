@@ -191,7 +191,7 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <meta name="msapplication-tooltip" content="Word and word"/>
 <meta name="msapplication-task" content="name=About;action-uri=/about/;icon-uri=/images/about.ico" />
 ```
-#### Your ready? Og tags (Facebook)  
+#### Og tags (Facebook)  
 ```html
 <meta name="og:title" content="The Rock"/>
 <meta name="og:type" content="movie"/>
