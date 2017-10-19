@@ -163,9 +163,97 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <meta name="MobileOptimized" content="176" />
 <meta name="HandheldFriendly" content="True" />
 ```
-#### Standart start  
+#### MS Windows app tags  
 ```html
-<!DOCTYPE html>
+<meta http-equiv="Page-Enter" content="RevealTrans(Duration=2.0,Transition=2)" />
+<meta http-equiv="Page-Exit" content="RevealTrans(Duration=3.0,Transition=12)" />
+<meta name="mssmarttagspreventparsing" content="true">
+<meta name="msapplication-starturl" content="http://example.com/"/>
+<meta name="msapplication-window" content="width=800;height=600"/>
+<meta name="msapplication-navbutton-color" content="#000000">
+<meta name="application-name" content="Words name"/>
+<meta name="msapplication-tooltip" content="Word and word"/>
+<meta name="msapplication-task" content="name=About;action-uri=/about/;icon-uri=/images/about.ico" />
+```
+#### Your ready? Og tags (Facebook)  
+```html
+<meta name="og:title" content="The Rock"/>
+<meta name="og:type" content="movie"/>
+<meta name="og:url" content="http://www.imdb.com/title/tt0117500/"/>
+<meta name="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
+<meta name="og:site_name" content="IMDb"/>
+<meta name="og:description" content="A group of U.S. Marines, under command of..."/>
+
+<meta name="fb:page_id" content="43929265776" />
+
+<meta name="og:email" content="me@example.com"/>
+<meta name="og:phone_number" content="650-123-4567"/>
+<meta name="og:fax_number" content="+1-415-123-4567"/>
+
+<meta name="og:latitude" content="37.416343"/>
+<meta name="og:longitude" content="-122.153013"/>
+<meta name="og:street-address" content="1601 S California Ave"/>
+<meta name="og:locality" content="Palo Alto"/>
+<meta name="og:region" content="CA"/>
+<meta name="og:postal-code" content="94304"/>
+<meta name="og:country-name" content="USA"/>
+
+<meta property="og:type" content="game.achievement"/>
+<meta property="og:points" content="POINTS_FOR_ACHIEVEMENT"/>
+
+<meta property="og:video" content="http://example.com/awesome.swf" />
+<meta property="og:video:height" content="640" />
+<meta property="og:video:width" content="385" />
+<meta property="og:video:type" content="application/x-shockwave-flash" />
+<meta property="og:video" content="http://example.com/html5.mp4" />
+<meta property="og:video:type" content="video/mp4" />
+<meta property="og:video" content="http://example.com/fallback.vid" />
+<meta property="og:video:type" content="text/html" />
+
+<meta property="og:audio" content="http://example.com/amazing.mp3" />
+<meta property="og:audio:title" content="Amazing Song" />
+<meta property="og:audio:artist" content="Amazing Band" />
+<meta property="og:audio:album" content="Amazing Album" />
+<meta property="og:audio:type" content="application/mp3" />
+```
+#### Twitter tags  
+```html
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@site_account">
+<meta name="twitter:creator" content="@individual_account">
+<meta name="twitter:url" content="https://example.com/page.html">
+<meta name="twitter:title" content="Content Title">
+<meta name="twitter:description" content="Content description less than 200 characters">
+<meta name="twitter:image" content="https://example.com/image.jpg">
+```
+#### Swift tags  
+```html
+<meta class="swiftype" name="title" data-type="string" content="page title" />
+<meta class="swiftype" name="body" data-type="text" content="this is the body content" />
+<meta class="swiftype" name="url" data-type="enum" content="http://www.swiftype.com" />
+<meta class="swiftype" name="price" data-type="float" content="3.99" />
+<meta class="swiftype" name="quantity" data-type="integer" content="12" />
+<meta class="swiftype" name="published_at" data-type="date" content="2013-10-31" />
+<meta class="swiftype" name="store_location" data-type="location" content="20,-10" />
+<meta class="swiftype" name="tags" data-type="string" content="tag1" />
+<meta class="swiftype" name="tags" data-type="string" content="tag2" />
+```
+#### DC tags  
+```html
+<meta name="DC.Title" content="Page title">
+<meta name="DC.Creator" content="Creator name">
+<meta name="DC.Subject" content="Page subject">
+<meta name="DC.Description" content="Page description">
+<meta name="DC.Publisher" content="Name publisher">
+<meta name="DC.Contributor" content="Name contributor">
+<meta name="DC.Date" content="Date post page">
+<meta name="DC.Type" content="Type site">
+<meta name="DC.Format" content="Format site">
+<meta name="DC.Identifier" content="http://example.com/this/page/">
+<meta name="DC.Source" content="Data source">
+<meta name="DC.Language" content="en">
+<meta name="DC.Coverage" content="Geo">
+<meta name="DC.Rights" content="Copiright">
 ```
 #### Standart start  
 ```html
@@ -183,27 +271,29 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 ```html
 <!DOCTYPE html>
 ```
-#### Standart start  
+#### CSRF  
 ```html
-<!DOCTYPE html>
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc="/>
 ```
-#### Standart start  
+#### Other tags  
 ```html
-<!DOCTYPE html>
+<meta name="google-analytics" content="1-AHFKALJ"/>
+<meta name="disqus" content="abcdefg"/>
+<meta name="uservoice" content="asdfasdf"/>
+<meta name="mixpanel" content="asdfasdf"/>
+<meta name="microid" content="mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7" />
+<meta name="tweetmeme-title" content="Title" />
+<meta name="blogcatalog" />
 ```
-#### Standart start  
+#### JSON-LD data  
 ```html
-<!DOCTYPE html>
-```
-#### Standart start  
-```html
-<!DOCTYPE html>
-```
-#### Standart start  
-```html
-<!DOCTYPE html>
-```
-#### Standart start  
-```html
-<!DOCTYPE html>
+<script type="application/ld+json"> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "WebSite",
+  "name": "Title",
+  "url": "http://exapmle.com"
+}
+</script>
 ```
