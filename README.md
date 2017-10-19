@@ -174,7 +174,8 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <meta name="apple-itunes-app" content="app-id=myAppStoreID, app-argument=myURL, affiliate-data=myAffiliateData">
 
 <meta name="format-detection" content="telephone=no">
-<meta name="format-detection" content="address=no">      
+<meta name="format-detection" content="address=no">
+<meta name="format-detection" name="email=no" />      
 ```
 #### Android tags  
 ```html
