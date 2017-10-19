@@ -98,7 +98,7 @@ Lets go
 <meta name="Googlebot" content="Noimageindex" />
 <meta name="yandex" content="all"/>
 ```
-#### Chache tags 
+#### Cache tags 
 ```html
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
@@ -108,17 +108,60 @@ Lets go
 ```html
 <meta http-equiv="refresh" content="30">
 ```
-#### Standart start  
+#### Icon, favicon etc tags  (Fluid-icon - Mac OS icon)
 ```html
-<!DOCTYPE html>
+<link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico" />
+<link rel="icon" type="image/png" href="https://example.com/favicon.png" />
+<link rel="fluid-icon" type="image/png" href="https://example.com/fluid-icon.png" />
 ```
-#### Standart start  
+#### Apple tags  
 ```html
-<!DOCTYPE html>
+<link rel="apple-touch-icon" href="/custom-icon.png">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="page title">
+<meta name="apple-mobile-web-app-orientations" content="portrait-any">
+<meta content="yes" name="apple-touch-fullscreen" />
+
+<link rel="shortcut icon" sizes="196x196" href="chromeapp-touch-icon-196x196-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-ipad-retina-ios7-touch-icon-152x152-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-ipad-retina-ios6-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-iphone4+-ipod-touch-retina-ios7-touch-icon-120x120-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-iphone4+-ipod-touch-retina-ios6-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios7-touch-icon-76x76-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios6-touch-icon-77x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="universal-touch-icon-60x60-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="fallback-touch-icon-57x57-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="fallback-touch-icon-57x57-precomposed.png">
+<link rel="shortcut icon" href="fallback-touch-icon-57x57-precomposed.png">
+
+<link rel="apple-touch-startup-image" href="apple-touch-startup-image-1536x2008.png" 
+media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="apple-touch-startup-image-1496x2048.png"
+media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="apple-touch-startup-image-768x1004.png"
+media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)">
+<link rel="apple-touch-startup-image" href="apple-touch-startup-image-748x1024.png"
+media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)">
+<link rel="apple-touch-startup-image" href="apple-touch-startup-image-640x1096.png"
+media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="apple-touch-startup-image-640x920.png"
+media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="apple-touch-startup-image-320x460.png"
+media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)">
+<link rel="apple-touch-startup-image" href="apple-touch-startup-image-fallback.png">
+
+<meta name="apple-itunes-app" content="app-id=myAppStoreID, app-argument=myURL, affiliate-data=myAffiliateData">
+
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">      
 ```
-#### Standart start  
+#### IE Mobile (holy-moly)  
 ```html
-<!DOCTYPE html>
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" />
 ```
 #### Standart start  
 ```html
