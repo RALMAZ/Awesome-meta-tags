@@ -108,11 +108,20 @@ Lets go
 ```html
 <meta http-equiv="refresh" content="30">
 ```
+#### If you want disable night mode  
+```html
+<meta name="nightmode" content="enable/disable">
+```
 #### Icon, favicon etc tags  (Fluid-icon - Mac OS icon)
 ```html
 <link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico" />
 <link rel="icon" type="image/png" href="https://example.com/favicon.png" />
+
 <link rel="fluid-icon" type="image/png" href="https://example.com/fluid-icon.png" />
+
+<link href="favicon-16.png" rel="icon" type="image/png" sizes="16x16">
+<link href="favicon-32.png" rel="icon" type="image/png" sizes="32x32">
+<link href="favicon-48.png" rel="icon" type="image/png" sizes="48x48">
 ```
 #### Apple tags  
 ```html
@@ -156,6 +165,14 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 
 <meta name="format-detection" content="telephone=no">
 <meta name="format-detection" content="address=no">      
+```
+#### Android tags  
+```html
+<meta name="viewport" content="target-densitydpi=device-dpi">
+<meta name="theme-color" content="red">
+<meta name="mobile-web-app-capable" content="yes">
+<link href="icon-192x192.png" rel="icon" sizes="192x192">
+<link href="icon-128x128.png" rel="icon" sizes="128x128">
 ```
 #### IE Mobile (holy-moly)  
 ```html
@@ -255,21 +272,28 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <meta name="DC.Coverage" content="Geo">
 <meta name="DC.Rights" content="Copiright">
 ```
-#### Standart start  
+#### Supposedly prevents your site from being set in an iframe  
 ```html
-<!DOCTYPE html>
+<meta http-equiv="window-target" content="_top">
 ```
-#### Standart start  
+#### Pinned Sites 
 ```html
-<!DOCTYPE html>
+<meta name="application-name" content="Application Name">
+<meta name="msapplication-tooltip" content="Tooltip Text">
+<meta name="msapplication-starturl" content="/">
 ```
-#### Standart start  
+#### Pinned Tab  
 ```html
-<!DOCTYPE html>
+<link href="path/to/icon.svg" rel="mask-icon" size="any" color="red">
 ```
-#### Standart start  
+#### UC Mobile Browser  
 ```html
-<!DOCTYPE html>
+<meta name="full-screen" content="yes">
+<meta name="browsermode" content="application">
+```
+#### Manifest.json  
+```html
+<link href="/manifest.json" rel="manifest">
 ```
 #### CSRF  
 ```html
