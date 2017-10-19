@@ -1,7 +1,6 @@
 # Awesome meta tags
 Awesome collection of meta tags
 
-Lets go
   
 #### Standart start  
 ```html
@@ -11,7 +10,7 @@ Lets go
 ```html
 <html lang="en" dir="rtl">
 ```
-#### "itemscope" and "itemptime" in head is start Microdata  
+#### Microdata start - "itemscope" and "itemptime" in head   
 ```html
 <head itemscope itemtype="http://schema.org/Website">
 ```
@@ -25,7 +24,7 @@ Lets go
 ```html
 <title itemprop='name'>Page Title less than 65 characters</title>
 ```
-#### My lovely. Block skype call widget  
+#### Disable skype call widget  
 ```html
 <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
 ```
