@@ -44,6 +44,8 @@ Awesome collection of meta tags
 <meta name="topic" content="">
 <meta name="summary" content="">
 
+<meta name="renderer" content="webkit" />
+
 <meta name="Classification" content="Business">
 <meta name="designer" content="">
 <meta name="reply-to" content="email@exapmle.com">
@@ -102,6 +104,15 @@ Awesome collection of meta tags
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Cache-Control" content="no-cache">
+```
+#### Orientation  
+```html
+<meta name="screen-orientation" content="portrait" />
+<meta name="x5-orientation" content="portrait" />
+<meta name="full-scerrn" content="yes" />
+<meta name="x5-fullscreen" content="ture" />
+<meta name="x5-page-mode" content="app" />
+<meta name="browsermode" content="application">
 ```
 #### If you want reload page every %number% second, use  
 ```html
@@ -173,11 +184,14 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <link href="icon-192x192.png" rel="icon" sizes="192x192">
 <link href="icon-128x128.png" rel="icon" sizes="128x128">
 ```
-#### IE Mobile (holy-moly)  
+#### IE Mobile tags (holy-molly)
 ```html
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="176" />
 <meta name="HandheldFriendly" content="True" />
+<meta http-equiv="imagetoolbar" content="false">
+<meta http-equiv="cleartype" content="on"/>
+<meta http-equiv="msthemecompatible" content="no"/>
 ```
 #### MS Windows app tags  
 ```html
@@ -190,6 +204,7 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <meta name="application-name" content="Words name"/>
 <meta name="msapplication-tooltip" content="Word and word"/>
 <meta name="msapplication-task" content="name=About;action-uri=/about/;icon-uri=/images/about.ico" />
+<meta name="msapplication-tap-highlight" content="no">
 ```
 #### Og tags (Facebook)  
 ```html
@@ -242,6 +257,12 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <meta name="twitter:description" content="Content description less than 200 characters">
 <meta name="twitter:image" content="https://example.com/image.jpg">
 ```
+#### Google+ tags  
+```html
+<meta itemprop="name" content=""/>
+<meta itemprop="description" content=""/>
+<meta itemprop="image" content=""/>
+```
 #### Swift tags  
 ```html
 <meta class="swiftype" name="title" data-type="string" content="page title" />
@@ -285,10 +306,15 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 ```html
 <link href="path/to/icon.svg" rel="mask-icon" size="any" color="red">
 ```
+#### Imagemode - show image even in text only mode  
+```html
+<meta name="imagemode" content="force">
+```
 #### UC Mobile Browser  
 ```html
 <meta name="full-screen" content="yes">
 <meta name="browsermode" content="application">
+<meta name="viewport" content="uc-fitscreen=yes"/>
 ```
 #### Manifest.json  
 ```html
