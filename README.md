@@ -1,4 +1,4 @@
-# Awesome-meta-tags
+# Awesome meta tags
 Awesome collection of meta tags
 
 Lets go
@@ -321,3 +321,8 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 }
 </script>
 ```
+
+
+### Contribution
+___
+Your contributions and suggestions are heartily welcome
