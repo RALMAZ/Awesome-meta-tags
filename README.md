@@ -1,9 +1,10 @@
-# Awesome meta tags
+<p align="center"># Awesome meta tags
 Awesome collection of meta tags  
   
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![Github Releases](https://img.shields.io/github/downloads/ralmaz/awesome-meta-tags/latest/total.svg)]()
-   
+</p>
+
 #### Standart start  
 ```html
 <!DOCTYPE html>
