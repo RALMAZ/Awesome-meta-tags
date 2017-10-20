@@ -2,7 +2,10 @@
 Awesome collection of meta tags  
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-
+  
+# Total: 216 tags
+____
+  
 #### Standart start  
 ```html
 <!DOCTYPE html>
