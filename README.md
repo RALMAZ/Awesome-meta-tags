@@ -2,7 +2,6 @@
 Awesome collection of meta tags  
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-[![Github Releases](https://img.shields.io/github/downloads/ralmaz/awesome-meta-tags/latest/total.svg)]()
 
 #### Standart start  
 ```html
