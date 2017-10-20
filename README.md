@@ -218,6 +218,10 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <meta name="og:description" content="A group of U.S. Marines, under command of..."/>
 
 <meta name="fb:page_id" content="43929265776" />
+<meta property="fb:admins" content="Facebook_ID"/>
+<meta property="profile:first_name" content="Имя"/>
+<meta property="profile:last_name" content="Фамилия"/>
+<meta property="profile:username" content="Ник"/>
 
 <meta name="og:email" content="me@example.com"/>
 <meta name="og:phone_number" content="650-123-4567"/>
