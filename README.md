@@ -248,6 +248,9 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <meta property="og:audio:artist" content="Amazing Band" />
 <meta property="og:audio:album" content="Amazing Album" />
 <meta property="og:audio:type" content="application/mp3" />
+
+<meta property="og:price:amount" content="15.00" />
+<meta property="og:price:currency" content="USD" />
 ```
 #### Twitter tags  
 ```html
@@ -261,9 +264,9 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 ```
 #### Google+ tags  
 ```html
-<meta itemprop="name" content=""/>
-<meta itemprop="description" content=""/>
-<meta itemprop="image" content=""/>
+<meta itemprop="name" content="The Name or Title Here">
+<meta itemprop="description" content="This is the page description">
+<meta itemprop="image" content="http://www.example.com/image.jpg">
 ```
 #### Swift tags  
 ```html
