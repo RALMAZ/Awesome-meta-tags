@@ -328,6 +328,12 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> 
 <![endif]-->
 ```
+#### Verification  (Google, Yandex, Bing)
+```html
+<meta name="google-site-verification" content="your code">
+<meta name="yandex-verification" content="your code">
+<meta name="msvalidate.01" content="your code" />
+```
 #### CSRF  
 ```html
 <meta name="csrf-param" content="authenticity_token"/>
