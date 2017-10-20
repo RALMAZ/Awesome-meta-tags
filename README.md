@@ -47,6 +47,8 @@ Awesome collection of meta tags
 
 <meta name="renderer" content="webkit" />
 
+<meta content="origin" id="mref" name="referrer">
+
 <meta name="Classification" content="Business">
 <meta name="designer" content="">
 <meta name="reply-to" content="email@exapmle.com">
