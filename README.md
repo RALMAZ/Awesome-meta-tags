@@ -1,7 +1,7 @@
 # Awesome meta tags  
 Awesome collection of meta tags  
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]()
   
 # Total: 216 tags
 ____
