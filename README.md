@@ -3,7 +3,7 @@ Awesome collection of meta tags
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]()
   
-# Total: 216 tags
+# Total: 245 tags
 ____
   
 #### Standart start  
@@ -13,6 +13,11 @@ ____
 #### Use "lang" to language and "dir" (if right to left)  
 ```html
 <html lang="en" dir="rtl">
+
+<!--
+Old lange
+<meta http-equiv="content-language" content="en">
+-->
 ```
 #### Microdata start - "itemscope" and "itemptime" in head   
 ```html
@@ -43,6 +48,7 @@ ____
 <meta name="keywords" content="Word1,word2,word3,word4">
 
 <meta name="subject" content="Your website's subject">
+<meta name='pagename' content=' '>
 <meta name="copyright"content="Company name">
 <meta name="abstract" content="">
 <meta name="topic" content="">
@@ -72,6 +78,10 @@ ____
 
 <meta name="author" content="John Doe">
 <meta name="generator" content="Name" />
+
+<meta name='target' content='all'>
+<meta name='ResourceLoaderDynamicStyles' content=''>
+<meta name='pageKey' content='guest-home'>
 ```
 #### Link meta-tags  
 ```html
@@ -306,6 +316,54 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <meta name="DC.Coverage" content="Geo">
 <meta name="DC.Rights" content="Copiright">
 ```
+#### Facebook share tags  
+```html
+<meta name="medium" content="medium_type" />
+<!--
+# Media types:
+audio
+image
+video
+news
+blog
+mult
+-->
+
+<link rel="image_src" href="audio_image_src url (eg. album art)" />
+<link rel="audio_src" href="audio_src url" />
+<meta name="audio_type" content="Content-Type header field" />
+
+<meta name="audio_title" content="audio_title (eg. song name)" />
+<meta name="audio_artist" content="audio_artist_name" />
+<meta name="audio_album" content="audio_album_name" />
+
+<link rel="image_src" href="video_screenshot_image_src url" />
+<link rel="video_src" href="video_src url"/>
+<meta name="video_height" content="video_height" />
+<meta name="video_width" content="video_width" />
+<meta name="video_type" content="application/x-shockwave-flash" />
+
+<meta name="video_height" content="200" />
+<meta name="video_width" content="300" />
+<meta name="video_type" content="application/x-shockwave-flash" />
+```
+#### Bing 
+```html
+<meta name="search.scope" content="webmaster">
+<meta name="search.language" content="en-US">
+```
+#### Yahoo 
+```html
+<META HTTP-EQUIV="varname" content="data">
+<META NAME="Slurp" CONTENT="NOYDIR">
+<meta name='y_key' content='1e39c508e0d87750'>
+```
+#### Google News 
+```html
+<meta name='syndication-source' content='https://example.com/new-news-tools/'>
+<meta name='original-source' content='https://example2.com/new-news-tools/'>
+<meta name="verify-v1" content="AsRLsdfgh1Oq9Pwcnm">
+```
 #### Supposedly prevents your site from being set in an iframe  
 ```html
 <meta http-equiv="window-target" content="_top">
@@ -315,6 +373,9 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 <meta name="application-name" content="Application Name">
 <meta name="msapplication-tooltip" content="Tooltip Text">
 <meta name="msapplication-starturl" content="/">
+
+<!-- only Safari 9 Pinned -->
+<link rel="mask-icon" href="website_icon.svg" color="red">
 ```
 #### Pinned Tab  
 ```html
