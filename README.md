@@ -6,7 +6,7 @@ Awesome collection of meta tags
 ## Total: 245 tags
 ____
   
-#### Standart start  
+#### Default 
 ```html
 <!DOCTYPE html>
 ```
@@ -15,7 +15,7 @@ ____
 <html lang="en" dir="rtl">
 
 <!--
-Old lange
+Old lang
 <meta http-equiv="content-language" content="en">
 -->
 ```
@@ -33,7 +33,7 @@ Old lange
 ```html
 <title itemprop='name'>Page Title less than 65 characters</title>
 ```
-#### Disable skype call widget  
+#### Disable skype call widget (my favorite tag)  
 ```html
 <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
 ```
@@ -108,14 +108,14 @@ Old lange
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://example.com/?rsd" />
 <link rel="pingback" href="http://example.com/ping" />
 ```
-#### Simple index tags  
+#### Robots 
 ```html
 <meta name="robots" content="index, follow">
 <meta name="Googlebot" content="Noindex, Nofollow" />
 <meta name="Googlebot" content="Noimageindex" />
 <meta name="yandex" content="all"/>
 ```
-#### Cache tags 
+#### Cache
 ```html
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
