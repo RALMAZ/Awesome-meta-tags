@@ -31,7 +31,7 @@ Old lang
 ```
 #### Title and microdata  
 ```html
-<title itemprop='name'>Page Title less than 65 characters</title>
+<title itemprop="name">Page Title less than 65 characters</title>
 ```
 #### Disable skype call widget (my favorite tag)  
 ```html
@@ -47,8 +47,8 @@ Old lang
 <meta name="description" content="Description of the page less than 150 characters">
 <meta name="keywords" content="Word1,word2,word3,word4">
 
-<meta name="subject" content="Your website's subject">
-<meta name='pagename' content=' '>
+<meta name="subject" content="Your website"s subject">
+<meta name="pagename" content=" ">
 <meta name="copyright"content="Company name">
 <meta name="abstract" content="">
 <meta name="topic" content="">
@@ -79,9 +79,9 @@ Old lang
 <meta name="author" content="John Doe">
 <meta name="generator" content="Name" />
 
-<meta name='target' content='all'>
-<meta name='ResourceLoaderDynamicStyles' content=''>
-<meta name='pageKey' content='guest-home'>
+<meta name="target" content="all">
+<meta name="ResourceLoaderDynamicStyles" content="">
+<meta name="pageKey" content="guest-home">
 ```
 #### Link meta-tags  
 ```html
@@ -91,11 +91,11 @@ Old lang
 
 <link rel="me" type="text/html" href="http://example.com/me"/>
 
-<link rel='index' title='Name site' href='http://example.com/' />
+<link rel="index" title="Name site" href="http://example.com/" />
 
-<link rel='start' title='News 1' href='http://example.com/news1' />
-<link rel='prev' title='News 24' href='http://example.com/news23' />
-<link rel='next' title='News 25' href='http://example.com/news25' />
+<link rel="start" title="News 1" href="http://example.com/news1" />
+<link rel="prev" title="News 24" href="http://example.com/news23" />
+<link rel="next" title="News 25" href="http://example.com/news25" />
 
 <link rel="search" href="/search.xml" type="application/opensearchdescription+xml" title="Viatropos" />
 <link rel="self" type="application/atom+xml" href="http://example.com/?page=3"/>
@@ -356,12 +356,12 @@ mult
 ```html
 <META HTTP-EQUIV="varname" content="data">
 <META NAME="Slurp" CONTENT="NOYDIR">
-<meta name='y_key' content='1e39c508e0d87750'>
+<meta name="y_key" content="1e39c508e0d87750">
 ```
 #### Google News 
 ```html
-<meta name='syndication-source' content='https://example.com/new-news-tools/'>
-<meta name='original-source' content='https://example2.com/new-news-tools/'>
+<meta name="syndication-source" content="https://example.com/new-news-tools/">
+<meta name="original-source" content="https://example2.com/new-news-tools/">
 <meta name="verify-v1" content="AsRLsdfgh1Oq9Pwcnm">
 ```
 #### Supposedly prevents your site from being set in an iframe  
