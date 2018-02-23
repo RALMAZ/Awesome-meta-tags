@@ -410,15 +410,15 @@ mult
 #### CSRF  
 ```html
 <meta name="csrf-param" content="authenticity_token"/>
-<meta name="csrf-token" content="/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc="/>
+<meta name="csrf-token" content="your code"/>
 ```
 #### Other tags  
 ```html
-<meta name="google-analytics" content="1-AHFKALJ"/>
-<meta name="disqus" content="abcdefg"/>
-<meta name="uservoice" content="asdfasdf"/>
-<meta name="mixpanel" content="asdfasdf"/>
-<meta name="microid" content="mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7" />
+<meta name="google-analytics" content="your code"/>
+<meta name="disqus" content="your code"/>
+<meta name="uservoice" content="your code"/>
+<meta name="mixpanel" content="your code"/>
+<meta name="microid" content="your code" />
 <meta name="tweetmeme-title" content="Title" />
 <meta name="blogcatalog" />
 ```
