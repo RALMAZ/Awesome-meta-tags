@@ -47,7 +47,7 @@ Old lang
 <meta name="description" content="Description of the page less than 150 characters">
 <meta name="keywords" content="Word1,word2,word3,word4">
 
-<meta name="subject" content="Your website"s subject">
+<meta name="subject" content="Your site subject">
 <meta name="pagename" content=" ">
 <meta name="copyright"content="Company name">
 <meta name="abstract" content="">
