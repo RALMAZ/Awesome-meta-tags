@@ -123,11 +123,11 @@ Old lang
 ```
 #### Orientation  
 ```html
-<meta name="screen-orientation" content="portrait" />
-<meta name="x5-orientation" content="portrait" />
-<meta name="full-scerrn" content="yes" />
-<meta name="x5-fullscreen" content="ture" />
-<meta name="x5-page-mode" content="app" />
+<meta name="screen-orientation" content="portrait">
+<meta name="x5-orientation" content="portrait">
+<meta name="full-scerrn" content="yes">
+<meta name="x5-fullscreen" content="ture">
+<meta name="x5-page-mode" content="app">
 <meta name="browsermode" content="application">
 ```
 #### If you want reload page every %number% second, use  
@@ -140,10 +140,10 @@ Old lang
 ```
 #### Icon, favicon etc tags  (Fluid-icon - Mac OS icon)
 ```html
-<link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico" />
-<link rel="icon" type="image/png" href="https://example.com/favicon.png" />
+<link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico">
+<link rel="icon" type="image/png" href="https://example.com/favicon.png">
 
-<link rel="fluid-icon" type="image/png" href="https://example.com/fluid-icon.png" />
+<link rel="fluid-icon" type="image/png" href="https://example.com/fluid-icon.png">
 
 <link href="favicon-16.png" rel="icon" type="image/png" sizes="16x16">
 <link href="favicon-32.png" rel="icon" type="image/png" sizes="32x32">
@@ -157,7 +157,7 @@ Old lang
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="page title">
 <meta name="apple-mobile-web-app-orientations" content="portrait-any">
-<meta content="yes" name="apple-touch-fullscreen" />
+<meta content="yes" name="apple-touch-fullscreen">
 
 <link rel="shortcut icon" sizes="196x196" href="chromeapp-touch-icon-196x196-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-ipad-retina-ios7-touch-icon-152x152-precomposed.png">
@@ -204,23 +204,23 @@ media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixe
 #### IE Mobile tags (holy-molly)
 ```html
 <meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="176" />
-<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="176">
+<meta name="HandheldFriendly" content="True">
 <meta http-equiv="imagetoolbar" content="false">
-<meta http-equiv="cleartype" content="on"/>
-<meta http-equiv="msthemecompatible" content="no"/>
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="msthemecompatible" content="no>
 ```
 #### MS Windows app tags  
 ```html
-<meta http-equiv="Page-Enter" content="RevealTrans(Duration=2.0,Transition=2)" />
-<meta http-equiv="Page-Exit" content="RevealTrans(Duration=3.0,Transition=12)" />
+<meta http-equiv="Page-Enter" content="RevealTrans(Duration=2.0,Transition=2)">
+<meta http-equiv="Page-Exit" content="RevealTrans(Duration=3.0,Transition=12)">
 <meta name="mssmarttagspreventparsing" content="true">
-<meta name="msapplication-starturl" content="http://example.com/"/>
-<meta name="msapplication-window" content="width=800;height=600"/>
+<meta name="msapplication-starturl" content="http://example.com/">
+<meta name="msapplication-window" content="width=800;height=600">
 <meta name="msapplication-navbutton-color" content="#000000">
-<meta name="application-name" content="Words name"/>
-<meta name="msapplication-tooltip" content="Word and word"/>
-<meta name="msapplication-task" content="name=About;action-uri=/about/;icon-uri=/images/about.ico" />
+<meta name="application-name" content="Words name">
+<meta name="msapplication-tooltip" content="Word and word">
+<meta name="msapplication-task" content="name=About;action-uri=/about/;icon-uri=/images/about.ico">
 <meta name="msapplication-tap-highlight" content="no">
 ```
 #### Og tags (Facebook)  
