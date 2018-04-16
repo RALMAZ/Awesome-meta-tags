@@ -1,5 +1,4 @@
-# Awesome meta tags  
-Awesome collection of meta tags  
+## Awesome collection of meta tags  
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
   
