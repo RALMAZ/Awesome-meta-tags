@@ -164,7 +164,7 @@ Old lang
 <link rel="apple-touch-icon" sizes="120x120" href="apple-iphone4+-ipod-touch-retina-ios7-touch-icon-120x120-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-iphone4+-ipod-touch-retina-ios6-touch-icon-114x114-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios7-touch-icon-76x76-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios6-touch-icon-77x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios6-touch-icon-72x72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="60x60" href="universal-touch-icon-60x60-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="fallback-touch-icon-57x57-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="fallback-touch-icon-57x57-precomposed.png">
